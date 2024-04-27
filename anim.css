@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #333;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.div1 div {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(223, 116, 16);
+  border-radius: 50%;
+  margin: 0 5px;
+  transform: translateX(-100px);
+  transform: translateY(30px);
+  animation-name: alfooly;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.div2 {
+  animation-delay: 0.2s;
+}
+
+.div3 {
+  animation-delay: 0.4s;
+}
+
+.div4 {
+  animation-delay: 0.6s;
+}
+
+.div5 {
+  animation-delay: 0.8s;
+}
+
+.div6 {
+  animation-delay: 1s;
+}
+
+.div7 {
+  animation-delay: 1.2s;
+}
+
+.div8 {
+  animation-delay: 1.4s;
+}
+
+.div9 {
+  animation-delay: 1.6s;
+}
+
+.div10 {
+  animation-delay: 1.8s;
+}
+
+.divt {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.divt div {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(16, 213, 223);
+  border-radius: 50%;
+  margin: 0 5px;
+  transform: translateX(50px);
+  transform: translateY(-30px);
+  animation-name: alfooly;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes alfooly {
+  to {
+    opacity: 0.3;
+    transform: translateY(-5px);
+    transform: translateX(-20px);
+
+  }
+}
+
+.medo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 90px;
+}
+
+.medo span {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background-color: aqua;
+  transform: translateX(-100px);
+  animation-name: sabon;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.mo2 {
+  animation-delay: 0.3s;
+}
+.mo3 {
+  animation-delay: 0.6s;
+}
+.mo4 {
+  animation-delay: 0.9s;
+}
+.mo5 {
+  animation-delay: 1.2s;
+}
+.mo6 {
+  animation-delay: 1.5s;
+}
+
+.ana {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: -282px;
+}
+.ana span {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background-color: rgb(223, 116, 16);
+  transform: translateX(100px);
+  animation-name: amo;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.al2 {
+  animation-delay: 0.3s;
+}
+.al3 {
+  animation-delay: 0.6s;
+}
+.al4 {
+  animation-delay: 0.9s;
+}
+.al5 {
+  animation-delay: 1.2s;
+}
+.al6 {
+  animation-delay: 1.5s;
+}
+@keyframes sabon {
+  to {
+    opacity: 0.3;
+    transform: translateX(100px);
+  }
+}
+@keyframes amo {
+  to {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+}
